@@ -1,25 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import HomePage from "../src/pages/HomePage";
+import AboutPage from "../src/pages/AboutPage";
+import CareersPage from "../src/pages/CareersPage";
+import FAQPage from "../src/pages/FAQPage";
+import OurWorkPage from "../src/pages/OurWorkPage";
+import ServicesPage from "../src/pages/ServicesPage";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    < Router>
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/about" component={AboutPage} />;
+        <Route exact path="/careers" component={CareersPage} />
+        <Route exact path="/faq" component={FAQPage} />
+        <Route exact path="/our-work" component={OurWorkPage} />
+        <Route exact path="/services" component={ServicesPage} />
+        {/* <Route component={NoMatch} /> */}
+      </Switch>
+      {/* <MobileMenu /> */}
+      {/* <AboutCanvas /> */}
+    </Router >
   );
 }
 
