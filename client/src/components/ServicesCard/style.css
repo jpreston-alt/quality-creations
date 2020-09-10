@@ -1,0 +1,20 @@
+.services-card-header {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #075550;
+}
+
+.services-card-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.services-card {
+    padding: 10%;
+    border-radius: 5%;
+}
+
+.services-card-icon {
+    color: #fd855b;
+}

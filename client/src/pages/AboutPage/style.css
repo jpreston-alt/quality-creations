@@ -1,38 +1,5 @@
-.overlay {
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background-color: #065550d2;
-    position: absolute;
-    top: 0px;
-}
-
-.pic-container {
-    position: relative;
-}
-
-.page-heading {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 54px;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
-}
-
-.page-heading-container {
-    position: absolute;
-    top: 35%;
-    left: 5%;
-    z-index: 2;
-}
-
-.page-subtitle {
-    color: rgb(201, 201, 201);
-    margin-top: 0px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 100;
-    letter-spacing: 2px;
-    /* text-transform: uppercase; */
+.mission-statement {
+    padding-top: 35%;
+    font-size: 18px;
+    color: rgb(167, 167, 167);
 }

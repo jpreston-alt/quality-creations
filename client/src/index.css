@@ -1,5 +1,34 @@
 body {
   margin: 0;
-  height: 100vh;
+  min-height: 100vh;
+}
+
+.card-header {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #075550;
+}
+
+.card-p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.uk-card {
+    padding: 10%;
+    border-radius: 2%;
+}
+
+.card-icon {
+    color: #fd855b;
+}
+
+.pink-hr {
+      width: 5%;
+    margin: 0px auto;
+    background-color: #fda387;
+    height: 1px;
+    border: none;
 }
 
