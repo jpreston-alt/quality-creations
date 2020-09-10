@@ -1,0 +1,27 @@
+.about-jumbotron-container {
+  position: relative;
+  height: 60vh;
+}
+.about-jumbotron-container::before {
+  content: "";
+  position: absolute;
+  top: 20;
+  left: 0;
+  height: 80vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+/* @media {
+} */
+.about-jumbotron-image {
+  position: absolute;
+}
+.about-jumbotron-text {
+  color: #417d7a;
+  font-weight: bold;
+  position: absolute;
+  z-index: 1;
+  flex: inherit;
+  right: 20;
+}
