@@ -16,6 +16,8 @@ function OurWorkPage() {
                 subtitle="Some headline here, Lorem ipsum dolor sit ame lorem"
                 color="#065550d2"
                 left="5%"
+            // color="rgba(255, 255, 255, 0.6)"
+            // textColor="#075550"
             />
             <ContentContainer>
 
