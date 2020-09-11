@@ -2,3 +2,56 @@
   position: relative;
   margin-top: 700px;
 }
+
+/* @media (max-width: 1155px) {
+  .home-header {
+    margin-top: 420px;
+  }
+} */
+@media (max-width: 1115px) {
+  .home-header {
+    margin-top: 420px;
+  }
+}
+
+@media (max-width: 1105px) {
+  .home-header {
+    margin-top: 370px;
+  }
+}
+@media (max-width: 1005px) {
+  .home-header {
+    margin-top: 330px;
+  }
+}
+@media (max-width: 850px) {
+  .home-header {
+    margin-top: 260px;
+  }
+}
+@media (max-width: 650px) {
+  .home-header {
+    margin-top: 90px;
+  }
+}
+@media (max-width: 450px) {
+  .home-header {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .home-header {
+    margin-top: 140px;
+  }
+}
+@media (max-width: 390px) {
+  .home-header {
+    margin-top: 160px;
+  }
+}
+
+@media (max-width: 376px) {
+  .home-header {
+    margin-top: 200px;
+  }
+}

@@ -6,6 +6,8 @@ import HomeHeader from "../../components/HomeHeader";
 import HomeBodyContainer from "../../components/HomeBodyContainer";
 import HomeBodyPhotosContainer from "../../components/HomeBodyPhotosContainer";
 import HomeBodyPhotosHeader from "../../components/HomeBodyPhotosHeader";
+import HomeTechnologiesHeader from "../../components/HomeTechnologyHeader";
+import HomeTechnologiesContainer from "../../components/HomeTechnologiesContainer";
 
 function HomePage() {
   return (
@@ -13,10 +15,15 @@ function HomePage() {
       <Navbar />
       <HomeJumbotron />
       <div className="uk-container">
+        {/* Main Cards */}
         <HomeHeader />
         <HomeBodyContainer />
+        {/* Photos Cards */}
         <HomeBodyPhotosHeader />
         <HomeBodyPhotosContainer />
+        {/* Technologies Cards */}
+        <HomeTechnologiesHeader />
+        <HomeTechnologiesContainer />
       </div>
     </div>
   );
