@@ -6,7 +6,7 @@ import CareersPage from "../src/pages/CareersPage";
 import FAQPage from "../src/pages/FAQPage";
 import OurWorkPage from "../src/pages/OurWorkPage";
 import ServicesPage from "../src/pages/ServicesPage";
-import Navbar from "./components/Navbar";
+import MobileMenu from "../src/components/Navbar/MobileMenu";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/services" component={ServicesPage} />
         {/* <Route component={NoMatch} /> */}
       </Switch>
-      {/* <MobileMenu /> */}
+      <MobileMenu />
       {/* <AboutCanvas /> */}
     </Router >
   );
