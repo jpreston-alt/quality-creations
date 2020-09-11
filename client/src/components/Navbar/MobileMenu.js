@@ -10,12 +10,12 @@ function MobileMenu(props) {
                 <button className="uk-offcanvas-close" type="button" uk-close="true"></button>
                 <ul className="uk-list">
                     <li><Link to="/" className="nav-item mobile-nav-item" style={{ color: props.color }}>Home</Link></li>
-                    <li><a uk-toggle="target: #about-canvas" className="nav-item mobile-nav-item" style={{ color: props.color }}>About</a></li>
-                    <li><Link to="/when" className="nav-item mobile-nav-item" style={{ color: props.color }}>When</Link></li>
-                    <li><Link to="/where" className="nav-item mobile-nav-item" style={{ color: props.color }}>Where</Link></li>
-                    <li><Link to="/who" className="nav-item mobile-nav-item" style={{ color: props.color }}>Who</Link></li>
-                    <li className="uk-nav-header">My Account</li>
-                    <li><Link to="/dashboard" className="nav-item mobile-nav-item" style={{ color: props.color }}>Dashboard</Link></li>
+                    <li><Link to="/about" className="nav-item mobile-nav-item" style={{ color: props.color }}>About</Link></li>
+                    <li><Link to="/services" className="nav-item mobile-nav-item" style={{ color: props.color }}>Services</Link></li>
+                    <li><Link to="/our-work" className="nav-item mobile-nav-item" style={{ color: props.color }}>Our Work</Link></li>
+                    <li><Link to="/careers" className="nav-item mobile-nav-item" style={{ color: props.color }}>Careers</Link></li>
+                    <li><Link to="/faq" className="nav-item mobile-nav-item" style={{ color: props.color }}>FAQ</Link></li>
+                    <li><a uk-toggle="target: #contact-canvas" className="nav-item mobile-nav-item" style={{ color: props.color }}>Contact</a></li>
                 </ul>
             </div>
         </div>

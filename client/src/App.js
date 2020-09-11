@@ -7,6 +7,7 @@ import FAQPage from "../src/pages/FAQPage";
 import OurWorkPage from "../src/pages/OurWorkPage";
 import ServicesPage from "../src/pages/ServicesPage";
 import MobileMenu from "../src/components/Navbar/MobileMenu";
+import ContactCanvas from "../src/components/ContactCanvas";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         {/* <Route component={NoMatch} /> */}
       </Switch>
       <MobileMenu />
-      {/* <AboutCanvas /> */}
+      <ContactCanvas />
     </Router >
   );
 }

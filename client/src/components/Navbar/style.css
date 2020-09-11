@@ -9,7 +9,7 @@
 }
 
 .nav-item:hover, .menu-icon:hover {
-    /* color: #5A7EDE !important; */
+    color: #fd855b !important;
     font-weight: 300 !important;
 }
 
@@ -52,4 +52,8 @@
 .dropdown-login:hover {
     color: rgb(102, 101, 101) !important;
     text-decoration: none !important;
+}
+
+.uk-offcanvas-bar {
+    background-color: #075550d8;
 }

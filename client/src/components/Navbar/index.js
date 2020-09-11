@@ -21,7 +21,7 @@ function Navbar(props) {
                         <li><Link to="/our-work" className="nav-item" style={{ color: props.color }}>Our Work</Link></li>
                         <li><Link to="/careers" className="nav-item" style={{ color: props.color }}>Careers</Link></li>
                         <li><Link to="/faq" className="nav-item" style={{ color: props.color }}>FAQ</Link></li>
-                        <li className="nav-item" style={{ color: props.color }}>Contact</li>
+                        <li><a uk-toggle="target: #contact-canvas" className="nav-item" style={{ color: props.color }}>Contact</a></li>
                     </ul>
                     <a className="uk-hidden@m" href="#menu-canvas" uk-toggle="target: #menu-canvas"><span className="menu-icon"
                         uk-icon="icon: menu; ratio: 1.5"></span></a>
