@@ -5,6 +5,8 @@ import image from "../../assets/images/about.jpg";
 import Footer from "../../components/Footer";
 import Cover from "../../components/Cover";
 import ContentContainer from "../../components/ContentContainer";
+import FAQcard from "../../components/FAQcard";
+import faqData from "../../utils/faqData";
 
 function FAQPage() {
     return (
@@ -17,8 +19,16 @@ function FAQPage() {
                 color="#065550d2"
                 left="5%"
             />
-            <ContentContainer>
-
+            <ContentContainer >
+                {
+                    faqData.map((el, index) => {
+                        return <FAQcard
+                            question={el.question}
+                            answer={el.answer}
+                            key={index}
+                        />
+                    })
+                }
             </ContentContainer>
             <Footer />
         </div>

@@ -1,0 +1,19 @@
+.icon-btn {
+    border-radius: 50px;
+    padding: 7px;
+    background: none;
+    border: 1px solid #fd855b;
+    color: #fd855b;
+}
+
+.icon-btn:hover {
+    background: #fd855b;
+    color: white;
+    cursor: pointer;
+}
+
+.icon-btn:focus, .icon-btn:active {
+    outline: none;
+    background: #fd855b;
+    color: white;
+}

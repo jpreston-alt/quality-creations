@@ -17,7 +17,7 @@ body {
 
 .uk-card {
     padding: 10%;
-    border-radius: 2%;
+    border-radius: 8px;
 }
 
 .card-icon {
@@ -25,7 +25,7 @@ body {
 }
 
 .pink-hr {
-      width: 5%;
+    width: 5%;
     margin: 0px auto;
     background-color: #fda387;
     height: 1px;
