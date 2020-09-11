@@ -6,7 +6,7 @@ import HomeHeader from "../../components/HomeHeader";
 import HomeBodyContainer from "../../components/HomeBodyContainer";
 import HomeBodyPhotosContainer from "../../components/HomeBodyPhotosContainer";
 import HomeBodyPhotosHeader from "../../components/HomeBodyPhotosHeader";
-import HomeTechnologiesHeader from "../../components/HomeTechnologyHeader";
+import HomeTechnologiesHeader from "../../components/HomeTechnologiesHeader";
 import HomeTechnologiesContainer from "../../components/HomeTechnologiesContainer";
 
 function HomePage() {
