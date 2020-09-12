@@ -1,0 +1,55 @@
+.project-image {
+  width: 100%; 
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-container {
+  height: 100%;
+}
+
+.project-overlay {
+  background-color: #075550d8;
+  background: radial-gradient(circle, rgba(8,111,105,0.8883928571428571) 28%, rgba(7,85,80,0.8939950980392157) 100%);
+  color: white;
+  height: 100%;
+  transition: 0.5s ease;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.project-name {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.project-description {
+  color: white;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.project-info {
+  padding: 8%;
+}
+
+.project-link:hover, .project-name:hover {
+  text-decoration: none;
+  font-size: 120%;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 500px) {
+  .project-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .project-description {
+    font-size: 13px;
+    margin-top: 5px;
+  }
+}

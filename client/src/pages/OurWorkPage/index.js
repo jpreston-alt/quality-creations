@@ -5,6 +5,8 @@ import image from "../../assets/images/about.jpg";
 import Footer from "../../components/Footer";
 import Cover from "../../components/Cover";
 import ContentContainer from "../../components/ContentContainer";
+import ProjectsCard from "../../components/ProjectsCard";
+import projectData from "../../utils/projectData";
 
 function OurWorkPage() {
     return (
@@ -20,7 +22,19 @@ function OurWorkPage() {
             // textColor="#075550"
             />
             <ContentContainer>
-
+                <div className="uk-child-width-1-2@m" uk-grid="true" uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500;">
+                    {
+                        projectData.map((el, index) => {
+                            return <ProjectsCard
+                                name={el.name}
+                                image={el.image}
+                                key={index}
+                                link={el.link}
+                                description={el.description}
+                            />
+                        })
+                    }
+                </div>
             </ContentContainer>
             <Footer />
         </div>
