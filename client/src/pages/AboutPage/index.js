@@ -38,9 +38,11 @@ function AboutPage() {
                         <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover">
                             <h3 className="card-header">Values</h3>
                             <hr className="pink-hr" />
-                            <p className="card-p">
-
-                            </p>
+                            <ul className="career-ul">
+                                <li className="career-li">Some value goes here lorem ipsum dolor sit amet</li>
+                                <li className="career-li">Some value goes here lorem ipsum dolor sit amet</li>
+                                <li className="career-li">Some value goes here lorem ipsum dolor sit amet</li>
+                            </ul>
                         </div>
                     </div>
                 </div>
