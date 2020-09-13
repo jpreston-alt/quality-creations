@@ -20,7 +20,7 @@ function AboutPage() {
             <ContentContainer>
                 <div class="uk-grid-match uk-child-width-expand@s uk-text-center" uk-grid="true">
                     <div>
-                        <div class="uk-card uk-card-default uk-card-body">
+                        <div class="uk-card uk-card-default uk-card-body uk-card-hover">
                             <h3 className="card-header">About</h3>
                             <hr className="pink-hr" />
                             <p className="card-p uk-text-justify">
@@ -30,12 +30,12 @@ function AboutPage() {
                         </div>
                     </div>
                     <div>
-                        <div class="uk-card uk-card-default uk-card-body">
+                        <div class="uk-card uk-card-default uk-card-body mission-card uk-card-hover">
                             <p className="card-p uk-text-italic mission-statement">
                                 "Mission Statement Goes Here"
                             </p>
                         </div>
-                        <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+                        <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover">
                             <h3 className="card-header">Values</h3>
                             <hr className="pink-hr" />
                             <p className="card-p">
@@ -45,7 +45,7 @@ function AboutPage() {
                     </div>
                 </div>
                 <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-margin-top">
+                    <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover">
                         <h3 className="card-header uk-text-center">Meet the Team</h3>
                         <hr className="pink-hr" />
                         <p className="card-p">

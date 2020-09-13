@@ -8,7 +8,7 @@ function FAQcard(props) {
   const handleCloseClick = () => setExpand(false);
 
   return (
-    <div class="uk-card uk-card-default faq-card">
+    <div class="uk-card uk-card-default faq-card uk-card-hover">
       <div uk-grid="true">
         <div class="uk-width-expand">
           <p className="faq-topic uk-text-middle">{props.topics}</p>
@@ -47,8 +47,8 @@ function FAQcard(props) {
           </div>
         </div>
       ) : (
-        ""
-      )}
+          ""
+        )}
     </div>
   );
 }
