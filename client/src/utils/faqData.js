@@ -12,11 +12,6 @@ const services = new FaqCard("Services", [
   {
     question: "Why Quality Creations?",
     answer:
-      "In an age of technology, the company that utilizes their resources the best is the one that will succeed. At Quality Creations, we put quality first and assure that all projects, no matter the size, are done to perfection. The company assures the employees are not overworked, do not have multiple projects to complete at once, and are in the best mindset at all times to execute all projects flawlessly. Through having such positive ratings within our community of past clients, we can assure that our pricing and production can compete with anyone else.",
-  },
-  {
-    question: "Why Quality Creations?",
-    answer:
       "In an age of technology, the company that utilizes their resources the best is the one that will succeed. At Quality Creations, we put quality first and assure that all projects, no matter the size, are done to perfection. The company assures the employees are not overworked, do not have multiple projects to complete at once, and are in the best mindset at all times to execute all projects flawlessly. Through having such positive ratings within our community, we can assure that our pricing and production can compete with anyone elses.",
   },
   {
@@ -144,19 +139,19 @@ const databases = new FaqCard("Databases and APIs", [
 ]);
 const hosting = new FaqCard("Hosting and Maintenance", [
   {
-    question: "What databases do you use?",
+    question: "What is hosting and maintenance?",
     answer:
-      "Both SQL and no-SQL databases. Anything from mySQL, Mongo, CouchDB, to PostgreSQL. Depending on the circumstances for the API routes and data needing to be stored, we have the ability to create and render any databases needed for the circumstance.",
+      "When a website is completed, the owner has the ability to post the website on their own terms and have their own in-house IT team maintain and update it to their pleasure. Or, at Quality-Creations, we offer additional services to host the website, do monthly checkups and maintenance work, security updates, and overall updates to the owners desire.",
   },
   {
-    question: "What is an API?",
+    question: "Why can't I just host the website myself?",
     answer:
-      "API stands for Application Programming Interface. It is essentially data stored in a database and filtered/disbursed through a server to an end client. The data can range from a clients name and contact information, to compiled statistical analytics from last years revenue. With all libraries today, the possibilities are endless.",
+      "You can if you want! Today, there are many services and features such as GoDaddy and HostGator that allows anyone to host a website. However, to assure it is done the correct way and secured to prevent domain high-jacking, Quality-Creations assures it is hosted accordingly.",
   },
   {
-    question: "What is the purpose of having API?",
+    question: "Why should I buy the monthly maintenance and updating package?",
     answer:
-      "For already existing user interfaces, or websites, an integrated API can be hooked to such platform to make it much more dynamic in nature. It can also be used for clients of a business, where the API can send updates to such clients based on inventory, sales, or any other information that is stored by the company.",
+      "There are many answers to this question. But to start off, with security threats such as hackers and domain/platform high-jacking, it is common practice to regularly check and service websites to assure they have not been hacked into. Additionally, with the world of technology changing today, libraries, software, and everything in between are constantly being updated and augmented. With that said, a website today may not be compatible or even functional 6 months from now. With the subscription, Quality-Creations assures that the websites code updates along with all other updates, solidifying that the website never goes out-of-date. Lastly, like technology, businesses never stop growing or changing either. With the subscription, based on the plan, we offer free changes and edits to the website, per month, for any reason. We also provide free consulting and help along the way.",
   },
 ]);
 
