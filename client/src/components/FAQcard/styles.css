@@ -1,26 +1,36 @@
 .faq-card {
-    border-radius: 2px;
-    margin-bottom: 30px;
-    padding: 5%;
+  border-radius: 2px;
+  margin-bottom: 30px;
+  padding: 5%;
 }
 
-.faq-question {
-    margin-bottom: 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    color: gray;
+.faq-topic {
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: gray;
 }
 
+.faq-question-li,
+.faq-answer-li {
+  list-style-type: none;
+}
+.faq-question,
 .faq-answer {
-    margin-bottom: 0px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+  margin-bottom: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.faq-question {
+  font-weight: 400;
+}
+.faq-answer {
+  font-weight: 100;
 }
 
 .answer-row {
-    margin-top: 4%;
+  margin-top: 4%;
 }
 
 .faq-hr {
-    margin-top: 4%;
+  margin-top: 4%;
 }
