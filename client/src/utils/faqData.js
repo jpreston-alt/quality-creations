@@ -3,7 +3,7 @@ function FaqCard(topics, faq) {
   this.faq = faq;
 }
 
-const qualityCreations = new FaqCard("Quality-Creations", [
+const services = new FaqCard("Services", [
   {
     question: "What is Quality Creations?",
     answer:
@@ -86,38 +86,87 @@ const webDevelopment = new FaqCard("Web Development", [
       "All websites are made with React, and have the ability to use dozens of supplementary libraries to further adhere to the project's functionality.",
   },
   {
+    question: "What is full-stack web application?",
+    answer:
+      "It is an application that has a front-end user interface, along with a server and database connection. It is a top-tier web creation that capitalizes both on the users experience and the businesses functionality and work flow.",
+  },
+  {
     question: "Does the company just focus on full-stack projects?",
     answer:
-      "No! The employees of the firm are versatile and are able to execute on multi-page full-stack project, or simple landing page one.",
+      "No! The employees of the firm are versatile and are able to execute on multi-page full-stack project, or simple landing pages.",
+  },
+]);
+const mobileApplication = new FaqCard("Mobile Application", [
+  {
+    question: "What technologies are used for to create mobile applications?",
+    answer:
+      "Traditionally, complex languages such as Java, Swift, and Objective-C are used to create either an iOS or Android mobile application. However, At Quality-Creations we develop all applications in the new and improved language of React Native, which is a compiled version of all prior languages, adding a level of versatility to the application.",
+  },
+  {
+    question: "Can you create both an iOS and Android Application?",
+    answer:
+      "Yes! By coding in React Native, all code can be ran on both devices, unlike that of the traditional method of Java, Swift, or Objective-C.",
+  },
+  {
+    question: "What kind of mobile applications can you make?",
+    answer:
+      "As of right now, the company only specializes in mobile applications to capitalize on business/employee/client relationships. Games and other mobile creations have not been specialized or been trained on internally yet.",
+  },
+]);
+const software = new FaqCard("Software", [
+  {
+    question: "What technologies are used for to software?",
+    answer:
+      "Right now all software is made through NodeJS, Python, and Excel/VBA. Depending on the size and purpose of the project, one of the languages will be used to capitalize on the functionality and usage of it.",
+  },
+  {
+    question: "What are examples of software the company the can make?",
+    answer:
+      "Anything from automated mailing/texting lists, to employee directories, to even data filtering spreadsheets in Excel. By having a team with a diverse professional background, the imagination and skill set are endless to fit almost any of our clients needs.",
+  },
+]);
+const databases = new FaqCard("Databases and APIs", [
+  {
+    question: "What databases do you use?",
+    answer:
+      "Both SQL and no-SQL databases. Anything from mySQL, Mongo, CouchDB, to PostgreSQL. Depending on the circumstances for the API routes and data needing to be stored, we have the ability to create and render any databases needed for the circumstance.",
+  },
+  {
+    question: "What is an API?",
+    answer:
+      "API stands for Application Programming Interface. It is essentially data stored in a database and filtered/disbursed through a server to an end client. The data can range from a clients name and contact information, to compiled statistical analytics from last years revenue. With all libraries today, the possibilities are endless.",
+  },
+  {
+    question: "What is the purpose of having API?",
+    answer:
+      "For already existing user interfaces, or websites, an integrated API can be hooked to such platform to make it much more dynamic in nature. It can also be used for clients of a business, where the API can send updates to such clients based on inventory, sales, or any other information that is stored by the company.",
+  },
+]);
+const hosting = new FaqCard("Hosting and Maintenance", [
+  {
+    question: "What databases do you use?",
+    answer:
+      "Both SQL and no-SQL databases. Anything from mySQL, Mongo, CouchDB, to PostgreSQL. Depending on the circumstances for the API routes and data needing to be stored, we have the ability to create and render any databases needed for the circumstance.",
+  },
+  {
+    question: "What is an API?",
+    answer:
+      "API stands for Application Programming Interface. It is essentially data stored in a database and filtered/disbursed through a server to an end client. The data can range from a clients name and contact information, to compiled statistical analytics from last years revenue. With all libraries today, the possibilities are endless.",
+  },
+  {
+    question: "What is the purpose of having API?",
+    answer:
+      "For already existing user interfaces, or websites, an integrated API can be hooked to such platform to make it much more dynamic in nature. It can also be used for clients of a business, where the API can send updates to such clients based on inventory, sales, or any other information that is stored by the company.",
   },
 ]);
 
-// const q2 = new FaqCard(
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit."
-// );
-
-// const q3 = new FaqCard(
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vel dui non elit?",
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vel dui non elit. Lorem ipsum dolor sit amet."
-// );
-
-// const q4 = new FaqCard(
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nulla vel dui non elit vehicula tincidunt at ac quam?",
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dui non elit vehicula tincidunt at ac quam. Donec hendrerit rhoncus."
-// );
-
-// const q5 = new FaqCard(
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
-//   "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur adipiscing elit."
-// );
-
 let faqData = [
-  qualityCreations,
+  services,
   webDevelopment,
-  // q2,
-  // q3,
-  // q4,
+  mobileApplication,
+  software,
+  databases,
+  hosting,
   // q5
 ];
 
