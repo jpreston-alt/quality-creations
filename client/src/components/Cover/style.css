@@ -8,6 +8,13 @@
 
 .pic-container {
     position: relative;
+    max-height: 550px;
+}
+
+.cover-image {
+width: 100%; 
+  max-height: 550px;
+  object-fit: cover;
 }
 
 .page-heading {

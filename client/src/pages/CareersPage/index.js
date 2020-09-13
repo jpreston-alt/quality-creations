@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import Navbar from "../../components/Navbar";
 import Cover from "../../components/Cover";
-import image from "../../assets/images/about.jpg";
+import image from "../../assets/images/careers2.jpg";
 import Footer from "../../components/Footer";
 import ContentContainer from "../../components/ContentContainer";
 

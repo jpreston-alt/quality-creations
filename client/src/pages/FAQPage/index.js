@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import Navbar from "../../components/Navbar";
-import image from "../../assets/images/about.jpg";
+import image from "../../assets/images/6.jpg";
 import Footer from "../../components/Footer";
 import Cover from "../../components/Cover";
 import ContentContainer from "../../components/ContentContainer";

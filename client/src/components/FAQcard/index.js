@@ -36,6 +36,7 @@ function FAQcard(props) {
                           {item.answer}
                         </p>
                       </li>
+                      <br />
                     </>
                   );
                 })}
