@@ -8,3 +8,15 @@
   align-items: center;
   justify-content: center;
 }
+
+.values-li {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.values-ul {
+    list-style-type: circle;
+}

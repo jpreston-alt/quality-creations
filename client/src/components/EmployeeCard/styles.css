@@ -1,0 +1,21 @@
+.employee-image {
+    max-width: 200px;
+}
+
+.employee-name {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: gray;
+    font-size: 13px;
+}
+
+.employee-icon {
+    color: #075550;
+    padding: 3px;
+}
+
+.employee-icon:hover {
+    color: #075550b7;
+    padding: 4px;
+}

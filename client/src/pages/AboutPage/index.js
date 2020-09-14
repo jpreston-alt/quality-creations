@@ -5,6 +5,7 @@ import image from "../../assets/images/about.jpg";
 import Footer from "../../components/Footer";
 import Cover from "../../components/Cover";
 import ContentContainer from "../../components/ContentContainer";
+import MeetTheTeamCard from "../../components/MeetTheTeamCard";
 
 function AboutPage() {
     return (
@@ -38,23 +39,15 @@ function AboutPage() {
                         <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover">
                             <h3 className="card-header">Values</h3>
                             <hr className="pink-hr" />
-                            <ul className="career-ul">
-                                <li className="career-li">Some value goes here lorem ipsum dolor sit amet</li>
-                                <li className="career-li">Some value goes here lorem ipsum dolor sit amet</li>
-                                <li className="career-li">Some value goes here lorem ipsum dolor sit amet</li>
+                            <ul className="values-ul">
+                                <li className="values-li">Some value goes here lorem ipsum dolor sit amet</li>
+                                <li className="values-li">Some value goes here lorem ipsum dolor sit amet</li>
+                                <li className="values-li">Some value goes here lorem ipsum dolor sit amet</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div>
-                    <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover">
-                        <h3 className="card-header uk-text-center">Meet the Team</h3>
-                        <hr className="pink-hr" />
-                        <p className="card-p">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dui non elit vehicula tincidunt at ac quam. Donec hendrerit rhoncus dolor et luctus. Ut dignissim, enim congue tincidunt efficitur, lectus eros molestie enim, quis aliquam orci erat id magna. Integer nunc arcu, ultricies in mauris ac, fringilla varius ipsum. Etiam blandit nulla tellus, at euismod quam blandit et. Cras tristique dapibus vehicula. Morbi turpis purus, facilisis id pretium ac, accumsan hendrerit velit. Sed dui dolor, sodales eu orci fermentum, vulputate porttitor nisi. Ut at pharetra magna. Aenean mattis ut sem sed ultricies. Nam nibh ligula, maximus sed accumsan eu, elementum ac tellus.
-                        </p>
-                    </div>
-                </div>
+                <MeetTheTeamCard />
             </ContentContainer>
             <Footer />
         </div>
