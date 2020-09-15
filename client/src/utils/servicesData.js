@@ -19,13 +19,13 @@ const softwareCard = new ServicesCard(
 const databaseCard = new ServicesCard(
   "Database",
   "database",
-  "Using both SQL and No-SQL databases, the company can offer a variety of services which can integrate components of API's or backend software for internal communication and transferring of information. "
+  "Using both SQL and No-SQL databases, the company can offer a variety of services which can integrate components of API's or backend software for internal communication and transferring of information. No matter the size of the project, or the request made, the Team has great experience with over half a dozen database types, along with countless libraries and provisions to adhere to the project at hand. For instance, wether it is Mongoose with custom methods and statics for custom filtered data for MongoDB or sequelize for parsing of data for mySQL, the team is dynamic in nature to tackle all feats."
 );
 
 const apiCard = new ServicesCard(
   "API's",
   "code",
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla vel dui non elit vehicula tincidunt at ac quam.Donec hendrerit rhoncus dolor et luctus.Ut dignissim, enim congue tincidunt efficitur, lectus eros molestie enim, quis aliquam orci erat id magna.Integer nunc arcu, ultricies in mauris ac, fringilla varius ipsum.Etiam blandit nulla tellus, at euismod quam blandit et.Cras tristique dapibus vehicula.Morbi turpis purus, facilisis id pretium ac, accumsan hendrerit velit.Sed dui dolor, sodales eu orci fermentum, vulputate porttitor nisi.Ut at pharetra magna.Aenean mattis ut sem sed ultricies.Nam nibh ligula, maximus sed accumsan eu, elementum ac tellus"
+  "For additions wanting to be made for an existing database, or for even a new database to be made for API calls, the team is able to create secure routes and use supplemental open-source libraries to assure that all calls made are done so in a secure manner. Great use examples for such API calls are for local Movie Theaters possibly wanting to sell movie statistics to local marketing firms, which can all automatically be done through API calls. Another could be for a local real estate firm wanting to update their brokers of market statistics, which too, can be done through API calls."
 );
 
 const hostingCard = new ServicesCard(
