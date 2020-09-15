@@ -1,7 +1,23 @@
 .home-card-li {
   text-decoration: none;
   color: black;
+  transition: 0.25s ease-in-out;
 }
 .home-card-li:hover {
   color: black;
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0.25px 0.25px rgba(0, 0, 0, 1);
+}
+
+.card-collapsible-header {
+  transition: 0.5s ease-in-out;
+}
+.card-collapsible-header:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-shadow: 0.25px 0.25px rgba(0, 0, 0, 1);
+}
+
+.uk-accordion-title:hover {
+  cursor: pointer;
 }

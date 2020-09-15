@@ -8,6 +8,7 @@ import HomeBodyPhotosContainer from "../../components/HomeBodyPhotosContainer";
 import HomeBodyPhotosHeader from "../../components/HomeBodyPhotosHeader";
 import HomeTechnologiesHeader from "../../components/HomeTechnologiesHeader";
 import HomeTechnologiesContainer from "../../components/HomeTechnologiesContainer";
+import HomeEmploymentHeader from "../../components/HomeBodyContainer/HomeEmploymentHeader";
 
 function HomePage() {
   return (
@@ -24,6 +25,8 @@ function HomePage() {
         {/* Technologies Cards */}
         <HomeTechnologiesHeader />
         <HomeTechnologiesContainer />
+        {/* Employment Cards */}
+        <HomeEmploymentHeader />
       </div>
     </div>
   );
