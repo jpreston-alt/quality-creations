@@ -1,5 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
-/* font-family: 'Allura', cursive; */
+
+.navbar-name {
+  font-family: "Allura", cursive;
+  color: #075550;
+  font-weight: 100;
+  font-size: 70px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+@media (max-width: 1080px) {
+  .navbar-name {
+    display: none;
+  }
+}
 
 .nav-item {
   font-weight: 200;
