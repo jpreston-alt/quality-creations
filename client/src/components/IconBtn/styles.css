@@ -2,18 +2,18 @@
     border-radius: 50px;
     padding: 7px;
     background: none;
-    border: 1px solid #fd855b;
-    color: #fd855b;
+    border: 1px solid #075550;
+    color: #075550;
 }
 
 .icon-btn:hover {
-    background: #fd855b;
+    background: #075550;
     color: white;
     cursor: pointer;
 }
 
 .icon-btn:focus, .icon-btn:active {
     outline: none;
-    background: #fd855b;
+    background: #075550;
     color: white;
 }

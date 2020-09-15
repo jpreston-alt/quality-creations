@@ -1,7 +1,12 @@
 import React from "react";
 import "./styles.css";
 function HomeHeader() {
-  return <h1 class="uk-heading-divider home-header">Quality Creations</h1>;
+  return (
+    <div>
+      <h1 class="home-header home-header-multi">Quality Creations</h1>
+      <hr className="pink-hr home-header-hr" />
+    </div>
+  )
 }
 
 export default HomeHeader;

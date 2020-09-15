@@ -1,0 +1,27 @@
+.employment-form-btn {
+    border-radius: 20px;
+    background-color: #075550;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+
+.employment-form-btn:hover, .employment-form-btn:focus, .employment-form-btn:active {
+    background-color: #053b38ec;
+}
+
+.employment-form-input {
+    border-radius: 7px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.employment-form-legend {
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    color: #075550;
+    font-size: 20px;
+    letter-spacing: 1px;
+}

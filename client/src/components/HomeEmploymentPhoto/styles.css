@@ -1,4 +1,6 @@
 .home-employment-photo {
   border: 50px solid whitesmoke;
   padding: 0 !important;
+  border-radius: 10px;
+  opacity: .7;
 }

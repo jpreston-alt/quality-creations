@@ -8,16 +8,20 @@ import HomeEmploymentFormSpecialty from "../HomeEmploymentFormSpecialty";
 
 function HomeEmploymentFormIndex() {
   return (
-    <div style={{ marginLeft: "auto", marginRight: "auto" }}>
-      <legend className="uk-legend ">Legend</legend>
+    <div style={{ marginLeft: "auto", marginRight: "auto", padding: "20px" }}>
+      <div className="uk-text-center">
+        <legend className="uk-legend employment-form-legend">Interest Form</legend>
+      </div>
       <HomeEmploymentFormName />
       <HomeEmploymentFormPhoneNumber />
       <HomeEmploymentFormEmail />
       <HomeEmploymentFormSpecialty />
       <HomeEmploymentFormMisc />
-      <button className="uk-button uk-button-primary" type="submit">
-        Submit
+      <div className="uk-text-center">
+        <button className="uk-button uk-button-primary employment-form-btn" type="submit">
+          Submit
       </button>
+      </div>
     </div>
   );
 }

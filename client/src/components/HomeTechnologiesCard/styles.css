@@ -9,19 +9,35 @@
   background-repeat: no-repeat;
   background-position: center;
   transition: 0.35s ease-in-out;
+  opacity: .7;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 
 .background-image-technologies-card:hover {
-  opacity: 0.85;
+  opacity: 0.9;
+  filter: none;
 }
 .background-image-technologies-card a {
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-    1px 1px 0 #000;
-  color: white;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000; */
+  color: #133b39;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 
 .background-image-technologies-card a:hover {
-  color: rgba(236, 236, 236, 0.9);
+  color: #05534e;
+}
+
+.home-tech-header {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif !important;
+  background-color: #ffffffa6;
+  border-radius: 10px;
+  padding: 10px 5px;
+  font-weight: 500;
 }
 
 @media (min-width: 1200px) {

@@ -1,0 +1,14 @@
+.home-header-multi {
+    text-align: center;
+    text-transform: uppercase;
+    color: #075550;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    margin-top: 200px;
+}
+
+.home-header-hr {
+    margin-bottom: 30px;
+}

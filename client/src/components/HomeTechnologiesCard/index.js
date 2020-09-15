@@ -10,7 +10,7 @@ function HomeTechnologiesCard(props) {
         }}
       >
         <a href={`#${props.name.toLowerCase().split(" ").join("_")}`}>
-          <p>{props.name}</p>
+          <p className="home-tech-header">{props.name}</p>
         </a>
       </div>
     </div>

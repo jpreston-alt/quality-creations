@@ -2,9 +2,9 @@ import React from "react";
 
 function HomeEmploymentFormSpecialty() {
   return (
-    <div class="uk-margin">
-      <div uk-form-custom="target: > * > span:first-child">
-        <select>
+    <div class="uk-margin uk-width-expands">
+      <div uk-form-custom="target: > * > span:first-child" className="uk-width-expands">
+        <select className="uk-width-expands">
           <option value="" disabled="true">
             Specialty...
           </option>
@@ -14,7 +14,7 @@ function HomeEmploymentFormSpecialty() {
           <option value="3">Mobile Developer</option>
           <option value="4">Back End Developer</option>
         </select>
-        <button class="uk-button uk-button-default" type="button" tabindex="-1">
+        <button class="uk-button uk-button-default uk-width-expands employment-form-input" type="button" tabindex="-1" style={{ textAlign: "left" }}>
           <span></span>
           <span uk-icon="icon: chevron-down"></span>
         </button>

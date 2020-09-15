@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
 .navbar-name {
-  font-family: "Allura", cursive;
+  /* font-family: "Allura", cursive; */
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
   color: #075550;
-  font-weight: 100;
-  font-size: 70px;
+  font-size: 26px;
   margin-right: 40px;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 @media (max-width: 1080px) {

@@ -2,12 +2,13 @@
   position: relative;
 }
 .image {
-  opacity: 1;
+  opacity: .8;
   display: block;
   width: 100%;
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
+  border-radius: 10px;
 }
 
 .middle {
@@ -32,9 +33,13 @@
 }
 
 .text {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #075550bd;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   padding: 16px 32px;
   width: 100%;
+  border-radius: 10px;
+  font-family: "Montserrat", sans-serif !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }

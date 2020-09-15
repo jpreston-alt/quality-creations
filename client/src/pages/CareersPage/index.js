@@ -5,6 +5,7 @@ import Cover from "../../components/Cover";
 import image from "../../assets/images/careers2.jpg";
 import Footer from "../../components/Footer";
 import ContentContainer from "../../components/ContentContainer";
+import HomeEmploymentFormIndex from "../../components/HomeEmploymentFormIndex";
 
 function CareersPage() {
   return (
@@ -72,45 +73,13 @@ function CareersPage() {
                 </li>
               </ul>
             </div>
-            <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover">
-              <h3 className="card-header">Open Positions</h3>
-              <hr className="pink-hr" />
-              <ul className="career-ul">
-                <li className="career-li">
-                  Some job listing goes here lorem ipsum
-                </li>
-                <li className="career-li">
-                  Some job listing goes here lorem ipsum
-                </li>
-                <li className="career-li">
-                  Some job listing goes here lorem ipsum{" "}
-                </li>
-              </ul>
-            </div>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-text-center uk-card-hover">
-            <h3 className="card-header uk-text-center">
-              Interested in Working with us?
-            </h3>
-            <hr className="pink-hr" />
-            <p className="card-p">
-              Send your resume and cover letter to{" "}
-              <a
-                className="email-link"
-                href="mailto:something@quality-creations.com"
-              >
-                something@quality-creations.com.
-              </a>{" "}
-              Be sure to include WHY you want to work for Quality Creations!
-            </p>
-            <a
-              className="uk-button uk-button-default apply-btn"
-              href="mailto:something@quality-creations.com"
-            >
-              Apply
-            </a>
+          <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover" style={{ padding: "30px" }}>
+            <div style={{ maxWidth: "800px", marginLeft: "auto", marginRight: "auto" }}>
+              <HomeEmploymentFormIndex />
+            </div>
           </div>
         </div>
       </ContentContainer>

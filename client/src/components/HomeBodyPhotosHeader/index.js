@@ -1,7 +1,12 @@
 import React from "react";
 
 function HomeBodyPhotosHeader() {
-  return <h1 class="uk-heading-divider home-photos-header">Projects</h1>;
+  return (
+    <div>
+      <h1 class="home-header-multi">Projects</h1>
+      <hr className="pink-hr home-header-hr" />
+    </div>
+  )
 }
 
 export default HomeBodyPhotosHeader;
