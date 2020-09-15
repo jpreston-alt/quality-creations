@@ -8,7 +8,8 @@ import HomeBodyPhotosContainer from "../../components/HomeBodyPhotosContainer";
 import HomeBodyPhotosHeader from "../../components/HomeBodyPhotosHeader";
 import HomeTechnologiesHeader from "../../components/HomeTechnologiesHeader";
 import HomeTechnologiesContainer from "../../components/HomeTechnologiesContainer";
-import HomeEmploymentHeader from "../../components/HomeBodyContainer/HomeEmploymentHeader";
+import HomeEmploymentHeader from "../../components/HomeEmploymentHeader";
+import HomeEmploymentContainer from "../../components/HomeEmploymentContainer";
 
 function HomePage() {
   return (
@@ -27,6 +28,7 @@ function HomePage() {
         <HomeTechnologiesContainer />
         {/* Employment Cards */}
         <HomeEmploymentHeader />
+        <HomeEmploymentContainer />
       </div>
     </div>
   );

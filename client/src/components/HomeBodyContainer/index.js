@@ -30,14 +30,13 @@ function HomeBodyContainer() {
         "Websites",
         "Mobile Applications",
         "Softwares",
-        "Databases",
-        "APIs",
+        "Databases & APIs",
         "Hosting and Maintenance",
       ],
     },
     {
       name: "Our Work",
-      highlights: ["Portfolio", "Companies", "Testimonies"],
+      highlights: ["Portfolio", "Past Clients", "Testimonies"],
     },
     {
       name: "Contact",
