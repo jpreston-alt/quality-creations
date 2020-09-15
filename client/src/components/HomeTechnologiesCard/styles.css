@@ -8,6 +8,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 0.35s ease-in-out;
+}
+
+.background-image-technologies-card:hover {
+  opacity: 0.85;
 }
 .background-image-technologies-card a {
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,

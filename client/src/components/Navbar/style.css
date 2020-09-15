@@ -1,59 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
+/* font-family: 'Allura', cursive; */
+
 .nav-item {
-    font-weight: 200;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .navbar {
-    background-color: transparent;
+  background-color: transparent;
 }
 
-.nav-item:hover, .menu-icon:hover {
-    color: #075550 !important;
-    font-weight: 300 !important;
+.nav-item:hover,
+.menu-icon:hover {
+  color: #075550 !important;
+  font-weight: 300 !important;
 }
 
 .mobile-nav-item:hover {
-    color: white !important;
+  color: white !important;
 }
 
 .mobile-nav-item {
-    font-size: 12px;
-    padding-left: 10px;
-    font-weight: 100;
-    color: white !important;
-    text-transform: uppercase;
+  font-size: 12px;
+  padding-left: 10px;
+  font-weight: 100;
+  color: white !important;
+  text-transform: uppercase;
 }
 
 .menu-icon {
-    color: #2c3e50d8;
+  color: #2c3e50d8;
 }
 
 .my-account-btn {
-    margin-right: 15px;
-    border-radius: 20px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    padding: 0px 15px 0px 30px;
+  margin-right: 15px;
+  border-radius: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 0px 15px 0px 30px;
 }
 
 .drop-item {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
-.my-account-btn:hover, .my-account-btn:focus {
-    border: 1px solid white;
+.my-account-btn:hover,
+.my-account-btn:focus {
+  border: 1px solid white;
 }
 
 .dropdown-login {
-    color: rgb(160, 160, 160) !important;
+  color: rgb(160, 160, 160) !important;
 }
 
 .dropdown-login:hover {
-    color: rgb(102, 101, 101) !important;
-    text-decoration: none !important;
+  color: rgb(102, 101, 101) !important;
+  text-decoration: none !important;
 }
 
 .uk-offcanvas-bar {
-    background-color: #075550d8;
+  background-color: #075550d8;
 }

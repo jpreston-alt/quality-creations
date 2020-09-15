@@ -5,7 +5,7 @@ function HomeEmploymentFormPhoneNumber() {
     <div class="uk-margin">
       <div class="uk-inline">
         <span class="uk-form-icon" uk-icon="icon: phone"></span>
-        <input class="uk-input" type="phone" />
+        <input class="uk-input" type="phone" placeholder="Phone Number..." />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ function HomeEmploymentFormName() {
     <div class="uk-margin">
       <div class="uk-inline">
         <span class="uk-form-icon" uk-icon="icon: user"></span>
-        <input class="uk-input" type="text" />
+        <input class="uk-input" type="text" placeholder="Name..." />
       </div>
     </div>
   );

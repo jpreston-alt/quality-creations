@@ -10,6 +10,8 @@ import HomeTechnologiesHeader from "../../components/HomeTechnologiesHeader";
 import HomeTechnologiesContainer from "../../components/HomeTechnologiesContainer";
 import HomeEmploymentHeader from "../../components/HomeEmploymentHeader";
 import HomeEmploymentContainer from "../../components/HomeEmploymentContainer";
+import HomeEmploymentPhoto from "../../components/HomeEmploymentPhoto";
+import Footer from "../../components/Footer";
 
 function HomePage() {
   return (
@@ -28,8 +30,12 @@ function HomePage() {
         <HomeTechnologiesContainer />
         {/* Employment Cards */}
         <HomeEmploymentHeader />
-        <HomeEmploymentContainer />
+        <div class="uk-child-width-1-1@s uk-child-width-1-2@m" uk-grid="true">
+          <HomeEmploymentContainer />
+          <HomeEmploymentPhoto />
+        </div>
       </div>
+      <Footer className="main-footer" />
     </div>
   );
 }
