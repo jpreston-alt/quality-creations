@@ -62,22 +62,16 @@
 /* 
  */
 
-.chip {
-  display: inline-block;
-  padding: 0 25px;
-  height: 50px;
-  font-size: 16px;
-  line-height: 50px;
-  border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.1);
-  border: 1px solid white;
+.project-website-link-icon {
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+.project-website-link-icon:hover {
+  color: white;
+  text-decoration: none;
 }
 
-.chip .logo {
-  float: left;
-  margin: 0 10px 0 -25px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  color: white;
+.project-modal-link-icon:hover {
+  cursor: pointer;
 }

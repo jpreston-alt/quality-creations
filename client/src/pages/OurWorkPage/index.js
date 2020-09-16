@@ -35,7 +35,8 @@ function OurWorkPage() {
                 key={index}
                 link={el.link}
                 description={el.description}
-                initial={el.initial}
+                testimony={el.testimony}
+                date={el.date}
               />
             );
           })}

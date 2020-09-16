@@ -14,7 +14,7 @@ function ProjectsCard(props) {
             alt="project-image"
             className="project-image"
           />
-          <div class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default project-overlay">
+          <div class="uk-transition-slide-top uk-position-top uk-overlay uk-overlay-default project-overlay projects-modal">
             <div class="project-info">
               <a href={props.link} className="project-link">
                 <h3 class="project-name">{props.name}</h3>
@@ -22,38 +22,42 @@ function ProjectsCard(props) {
               <p className="project-description">{props.description}</p>
               {/* Modal Chip */}
               <a
-                class="uk-button uk-button-default projects-modal"
-                href={`#${props.name.toLowerCase().split(" ").join("_")}`}
-                uk-toggle
+                class="project-website-link-icon"
+                href={props.link}
+                title="Website"
               >
-                <div className="chip">
-                  <div className="logo">{props.initial}</div>
-                  John Doe
-                </div>
+                <span uk-icon="icon: world; ratio: 2"></span>
               </a>
+              <span
+                className="project-modal-link-icon"
+                uk-icon="icon: comments; ratio: 2"
+                uk-toggle={`target: #${props.name
+                  .toLowerCase()
+                  .split(" ")
+                  .join("_")}`}
+                title="Testimony"
+              ></span>
             </div>
           </div>
         </div>
       </div>
       <div
         id={`${props.name.toLowerCase().split(" ").join("_")}`}
-        class="uk-flex-top"
         uk-modal="true"
       >
-        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
-          <button
-            class="uk-modal-close-default projects-modal"
-            type="button"
-            uk-close="true"
-          ></button>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+        <div class="uk-modal-dialog uk-modal-body">
+          <h2 class="uk-modal-title">{props.name}'s Experience</h2>
+          <p>{props.testimony}</p>
+          <b>
+            <p>{props.date}</p>
+          </b>
+          <p class="uk-text-right">
+            <button
+              class="uk-button uk-button-primary uk-modal-close"
+              type="button"
+            >
+              Close
+            </button>
           </p>
         </div>
       </div>
