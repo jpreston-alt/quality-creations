@@ -71,13 +71,26 @@ function CareersPage() {
                   Hands-on learning with senior leaders improving skill,
                   confidence, and production.
                 </li>
+                <li className="career-li">
+                  Work at own convenience. Able to work as many hours or as
+                  minimal hours, which ever fits best to personal schedule.
+                </li>
               </ul>
             </div>
           </div>
         </div>
         <div>
-          <div class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover" style={{ padding: "30px" }}>
-            <div style={{ maxWidth: "800px", marginLeft: "auto", marginRight: "auto" }}>
+          <div
+            class="uk-card uk-card-default uk-card-body uk-margin-top uk-card-hover"
+            style={{ padding: "30px" }}
+          >
+            <div
+              style={{
+                maxWidth: "800px",
+                marginLeft: "auto",
+                marginRight: "auto",
+              }}
+            >
               <HomeEmploymentFormIndex />
             </div>
           </div>

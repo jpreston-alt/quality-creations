@@ -34,7 +34,11 @@ const hostingCard = new ServicesCard(
   "Subscription based service that has the staff at Quality-Creations, maintain, service, protect, and update teh final product on a routine basis. Running security checks, updating code, and providing additional consulting allows for top-of-the-line products all the time."
 );
 
-const mobileCard = new ServicesCard("Mobile App Development", "phone", "");
+const mobileCard = new ServicesCard(
+  "Mobile App Development",
+  "phone",
+  "Either a mobile application for employees, clients, or both; the firm specializes in creating informative-based mobile applications for business use. Powered through React Native, the team is able to create applications compatible for both iPhone iOS and Android. Great for small scale uses and clarity in daily operations."
+);
 
 let servicesData = [
   webCard,
