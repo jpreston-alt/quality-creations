@@ -3,10 +3,10 @@ import "./styles.css";
 function HomeEmploymentHeader() {
   return (
     <div>
-      <h1 class="home-header-multi">Work With Us</h1>
+      <h1 class="home-header-multi home-employment-header">Work With Us</h1>
       <hr className="pink-hr home-header-hr" />
     </div>
-  )
+  );
 }
 
 export default HomeEmploymentHeader;

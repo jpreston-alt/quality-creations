@@ -1,11 +1,15 @@
 .home-card-li {
-    color: gray;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
+  color: gray;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
 }
 
 .home-card-li:hover {
-    color: #075550;
+  color: #075550;
+}
+
+.home-technologies-header {
+  margin-top: 50px;
 }

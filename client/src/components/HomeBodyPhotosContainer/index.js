@@ -35,6 +35,12 @@ function HomeBodyPhotosContainer() {
       name: "Mollys Hops",
       link: "https://adam-mollys-hops.herokuapp.com/",
     },
+    {
+      src:
+        "./assets/images/placeholders/ronald-construction-iphone-screenshot-placeholder.png",
+      name: "Ronald Landscaping",
+      link: "https://ronaldlandscaping-qc-ng.herokuapp.com/",
+    },
   ];
   return (
     <>
