@@ -6,12 +6,10 @@ const { email } = require("../../utils/nodemailer/employees");
 router.post("/", ({ body }, res) => {
   db.Employees.create({
     employeeName: body.employeeName,
-    employeeLocationCity: body.employeeLocationCity,
-    employeeLocationState: body.employeeLocationState,
-    employeeEmail: body.employeeEmail,
-    employeePhone: body.employeePhone,
-    yearsExperience: body.yearsExperience,
+    employeeGithub: body.employeeGithub,
+    employeePhoneNumber: body.employeePhone,
     employeeSpecialty: body.employeeSpecialty,
+    employeeMisc: body.employeeMisc,
   })
     .then((data) => {
       // try {

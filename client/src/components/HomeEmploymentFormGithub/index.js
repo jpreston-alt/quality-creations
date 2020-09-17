@@ -1,15 +1,14 @@
 import React from "react";
 
-function HomeEmploymentFormName(props) {
+function HomeEmploymentFormGithub(props) {
   return (
     <div class="uk-margin">
       <div class="uk-inline uk-width-expands">
-        <span class="uk-form-icon" uk-icon="icon: user"></span>
+        <span class="uk-form-icon" uk-icon="icon: github-alt"></span>
         <input
-          name="employeeName"
           class="uk-input employment-form-input"
           type="text"
-          placeholder="Name..."
+          placeholder="Github..."
           onChange={props.addData}
         />
       </div>
@@ -17,4 +16,4 @@ function HomeEmploymentFormName(props) {
   );
 }
 
-export default HomeEmploymentFormName;
+export default HomeEmploymentFormGithub;

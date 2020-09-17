@@ -5,26 +5,7 @@ const EmployeeSchema = mongoose.Schema({
     trim: true,
     required: [true, "Title Required"],
   },
-  employeeLocationCity: {
-    type: String,
-    trim: true,
-    required: [true, "Title Required"],
-  },
-  employeeLocationState: {
-    type: String,
-    trim: true,
-    required: [true, "Title Required"],
-  },
-  employeeEmail: {
-    type: String,
-    match: [
-      /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-      `Please Fill Valid Email Address`,
-    ],
-    trim: true,
-    required: [true, "Email Required"],
-  },
-  employeePhone: {
+  employeePhoneNumber: {
     type: String,
     validate: {
       validator: function (v) {
@@ -33,24 +14,24 @@ const EmployeeSchema = mongoose.Schema({
       },
       message: "Provided phone number is invalid.",
     },
-
-    yearsExperience: {
-      type: Number,
-      trim: true,
-      required: [true, "Title Required"],
-    },
-    employeeSpecialty: {
-      type: String,
-      enum: [
-        "Web Development",
-        "Mobile Application",
-        "Database",
-        "Software",
-        "Maintenance",
-        "Hosting",
-      ],
-      required: [true, "Category Required"],
-    },
+  },
+  employeeGithub: {
+    type: String,
+    trim: true,
+    required: [true, "Title Required"],
+  },
+  employeeSpecialty: {
+    type: String,
+    enum: [
+      "designer",
+      "full-stack-developer",
+      "mobile-developer",
+      "back-end-developer",
+    ],
+    required: [true, "Category Required"],
+  },
+  employeeMisc: {
+    type: String,
   },
 });
 
