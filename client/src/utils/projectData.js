@@ -30,7 +30,7 @@ const project2 = new ProjectCard(
 );
 
 const project3 = new ProjectCard(
-  "Seven Son's Kitchen",
+  "Seven Sons Kitchen",
   "Landing page set up for many future innovations and add ons, such as online order forms, subscriptions, and e-store for merchandise and other collectibles. Covers bare minimum to fit for the clients budget and will add as the business grows.",
   image3,
   "https://quality-creations-sevensons.herokuapp.com/",
