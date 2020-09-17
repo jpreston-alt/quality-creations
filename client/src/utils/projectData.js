@@ -40,7 +40,7 @@ const project3 = new ProjectCard(
 
 const project4 = new ProjectCard(
   "Saxton Consulting",
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dui non elit vehicula tincidunt at ac projectuam. Donec hendrerit rhoncus.",
+  "Simple landing page concept for real estate broker and mergers and acquisitions manager. Style and flow of the page had the intent for luxury and calm. All UI/UX effects were in house, supplemented with UI Kit functionality.",
   image1,
   "https://quality-creations-saxton.herokuapp.com/",
   "Beautiful! Stunning! Gorgeous! Absolutely the best service and quality imaginable. Must use!!",
@@ -48,17 +48,19 @@ const project4 = new ProjectCard(
 );
 
 const project5 = new ProjectCard(
-  "Project Name",
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dui non elit vehicula tincidunt at ac projectuam. Donec hendrerit rhoncus.",
+  "Ronald Landscaping",
+  "Clean, sleek, utilitarian designed landing page made with the intent to simplify and generate positive image of a new, local landscaping company.",
   image2,
-  ""
+  "https://ronaldlandscaping-qc-ng.herokuapp.com/",
+  "Exactly what I wanted. Been wanting a great landing page for some time now and super happy I went with this referral. Definitely coming back in the future!",
+  "08/2020"
 );
 
 const project6 = new ProjectCard(
-  "Project Name",
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vel dui non elit vehicula tincidunt at ac projectuam. Donec hendrerit rhoncus.",
+  "Kristen Lashes",
+  "Initialized a landing page intended for client browsing and self-marketing. Intended to pave the path for future e-commerce technologies and online payment system.",
   image3,
-  ""
+  "https://quality-creations-kristen-lash.herokuapp.com/"
 );
 
 let projectData = [project1, project2, project3, project4, project5, project6];
