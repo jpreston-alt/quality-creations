@@ -3,7 +3,7 @@ import "./styles.css";
 
 function HomeBodyPhotosCard(props) {
   return (
-    <li>
+    <li className="home-projects-photo-card">
       <div className="uk-panel main-photo-container">
         <img className="image" src={props.image} alt="" />
         <div className="middle">

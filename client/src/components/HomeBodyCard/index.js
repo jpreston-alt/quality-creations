@@ -4,7 +4,7 @@ import "./styles.css";
 function HomeBodyCard(props) {
   return (
     <div>
-      <div className="uk-card uk-card-default uk-card-hover uk-card-body ">
+      <div className="uk-card uk-card-default uk-card-hover uk-card-body">
         <ul uk-accordion="true" className="card-collapsible-main">
           <li>
             <h3 className="uk-card-title uk-accordion-title card-collapsible-header">

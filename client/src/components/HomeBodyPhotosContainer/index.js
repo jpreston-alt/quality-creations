@@ -49,7 +49,10 @@ function HomeBodyPhotosContainer() {
         tabname="-1"
         uk-slider="true"
       >
-        <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@m uk-grid">
+        <ul
+          class="uk-slider-items uk-child-width-1-1 uk-child-width-1-3@m uk-grid"
+          uk-scrollspy="cls: uk-animation-fade; target: .home-projects-photo-card; delay: 100; repeat: false"
+        >
           {images.map((item) => {
             return (
               <HomeBodyPhotosCard

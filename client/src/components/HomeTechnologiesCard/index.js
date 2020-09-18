@@ -2,9 +2,9 @@ import React from "react";
 import "./styles.css";
 function HomeTechnologiesCard(props) {
   return (
-    <div class="background-image-technologies">
+    <div className="background-image-technologies">
       <div
-        class="uk-card uk-card-default uk-card-body background-image-technologies-card"
+        className="uk-card uk-card-default uk-card-body background-image-technologies-card"
         style={{
           backgroundImage: `url(${props.src})`,
         }}

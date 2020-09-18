@@ -1,5 +1,5 @@
 .carousel-jumbotron {
-  height: 200px !important;
+  /* height: 200px !important; */
   margin-bottom: 5px !important;
   z-index: -10;
 }
@@ -10,13 +10,19 @@
   }
 }
 
+.video-container video {
+  height: 600px;
+  width: 100%;
+  opacity: 90%;
+}
+
 .slide1,
 .slide2,
 .slide3 {
   z-index: -10;
   position: absolute;
-  width: 100% !important;
-  height: auto !important;
+  /* width: 100% !important;
+  height: auto !important; */
 }
 
 @media (max-width: 415px) {

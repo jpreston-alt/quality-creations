@@ -6,14 +6,14 @@ import video2 from "../../assets/videos/video(2).mp4";
 
 function HomeJumbotron() {
   return (
-    <div class="slider carousel carousel-jumbotron  animate__animated  animate__fadeIn">
-      <div class="slide1">
+    <div className="slider carousel carousel-jumbotron">
+      <div className="slide1 video-container">
         <video src={video} autoPlay={true} muted={true} loop={true} />
       </div>
-      <div class="slide2">
+      <div className="slide2 video-container">
         <video src={video1} autoPlay={true} muted={true} loop={true} />
       </div>
-      <div class="slide3">
+      <div className="slide3 video-container">
         <video src={video2} autoPlay={true} muted={true} loop={true} />
       </div>
     </div>

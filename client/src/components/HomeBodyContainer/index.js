@@ -48,10 +48,14 @@ function HomeBodyContainer() {
     },
   ];
   return (
-    <div class="uk-child-width-1-2@s uk-grid-match" uk-grid="true">
+    <div
+      class="uk-child-width-1-2@s uk-grid-match uk-animation-fade"
+      uk-scrollspy="cls: uk-animation-fade; target: .home-services-card; delay: 100; repeat:true"
+      uk-grid="true"
+    >
       {components.map((item) => {
         return (
-          <div>
+          <div className="home-services-card">
             <HomeBodyCard name={item.name} highlights={item.highlights} />
           </div>
         );

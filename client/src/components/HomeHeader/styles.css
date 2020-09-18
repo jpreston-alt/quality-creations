@@ -1,13 +1,14 @@
 .home-header {
+  /* font-size: 80px; */
   position: relative;
-  margin-top: 700px;
+  margin-top: 650px;
 }
 
 /* @media (max-width: 1155px) {
   .home-header {
     margin-top: 420px;
   }
-} */
+}
 @media (max-width: 1115px) {
   .home-header {
     margin-top: 420px;
@@ -29,14 +30,15 @@
     margin-top: 260px;
   }
 }
+*/
 @media (max-width: 650px) {
   .home-header {
-    margin-top: 90px;
+    margin-top: 650px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 499px) {
   .home-header {
-    margin-top: 30px;
+    margin-top: 420px;
   }
 }
 @media (max-width: 414px) {

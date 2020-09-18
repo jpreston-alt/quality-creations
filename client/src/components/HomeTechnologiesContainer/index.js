@@ -39,6 +39,7 @@ function HomeTechnologiesContainer() {
     <div
       class="uk-grid-column-small uk-grid-row-large uk-child-width-1-3@s uk-text-center"
       uk-grid="true"
+      uk-scrollspy="cls: uk-animation-fade; target: .background-image-technologies; delay: 00; repeat:true"
     >
       {technologies.map((item) => {
         return <HomeTechnologiesCard name={item.name} src={item.src} />;
